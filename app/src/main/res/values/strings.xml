@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Notes</string>
+    <string name="create_new_note">Create a new note</string>
+    <string name="hint_input">Please enter a title</string>
+    <string name="hint_body">Please enter a body here</string>
+    <string name="save_btn">Save</string>
+    <string name="delete_btn">Delete</string>
+</resources>

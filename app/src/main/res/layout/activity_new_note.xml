@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginHorizontal="@dimen/margin_medium"
+    android:layout_marginVertical="@dimen/margin_medium">
+
+    <EditText
+        android:id="@+id/title_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_input"
+        android:maxLines="1"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:textSize="@dimen/font_medium"
+        android:background="@color/blue"
+        android:padding="@dimen/padding_medium"
+        />
+
+    <EditText
+        android:id="@+id/body_input"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/hint_body"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:textSize="@dimen/font_medium"
+        android:background="@color/yellow"
+        android:gravity="start"
+        android:padding="@dimen/padding_medium"
+        />
+
+    <Button
+        android:id="@+id/save_note_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/save_btn"
+        android:textSize="@dimen/font_medium"
+        />
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_btn"
+        android:layout_gravity="center"
+        android:textSize="@dimen/font_medium"
+        />
+
+</LinearLayout>
